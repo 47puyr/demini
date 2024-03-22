@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <math.h>
 
-// H‡m ki?m tra s? chÌnh phuong
+// H√†m ki?m tra s? ch√≠nh phuong
 int isPerfectSquare(int num) {
     int squareRoot = sqrt(num);
     return (squareRoot * squareRoot == num);
 }
 
-// H‡m d?m v‡ in ra c·c s? chÌnh phuong nh? hon n
+// H√†m d?m v√† in ra c√°c s? ch√≠nh phuong nh? hon n
 void countAndPrintPerfectSquares(int n) {
     printf("Cac so chinh phuong nho hon %d la:\n", n);
     int count = 0;
@@ -31,7 +31,7 @@ int main() {
         return 1;
     }
 
-    countAndPrintPerfectSquares(n); // G?i h‡m d? d?m v‡ in ra c·c s? chÌnh phuong
+    countAndPrintPerfectSquares(n); // G?i h√†m d? d?m v√† in ra c√°c s? ch√≠nh phuong
     return 0;
 }
 
